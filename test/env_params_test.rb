@@ -5,11 +5,6 @@ class EnvParamsTest < ActiveSupport::TestCase
     assert EnvParams::VERSION
   end
 
-  # test "imprime 'Hola mundo'" do
-  #   expect { MiGema.hello }.to output("Hola mundo\n").to_stdout
-  # end
-
-
   test "imprime 'Hola mundo'" do
     assert_output("Hola mundo\n") { EnvParams.hello }
   end
