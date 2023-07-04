@@ -1,11 +1,12 @@
-require 'env_params/config'
-require 'env_params/engine'
-require 'env_params/version'
+require "env_params/version"
+require "env_params/railtie"
 
 module EnvParams
   # Your code goes here...
-  def self.configuration
-    @configuration ||= fetch_configuration
-  end
 
+  class Error < StandardError; end
+  # Tu código aquí
+  def self.hello
+    puts 'Hola mundo'
+  end
 end

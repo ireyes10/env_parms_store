@@ -2,7 +2,7 @@ source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # Specify your gem's dependencies in env_params.gemspec.
-gemspec
+gemspec name: 'env_params'
 
 gem "puma"
 
