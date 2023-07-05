@@ -1,8 +1,5 @@
 require "env_params/version"
 require "env_params/railtie"
-#require "env_params/engine"
-require "env_params/configuration"
-
 module EnvParams
   # Your code goes here...
   class Error < StandardError; end
