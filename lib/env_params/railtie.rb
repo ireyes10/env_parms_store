@@ -1,8 +1,9 @@
 module EnvParams
   class Railtie < ::Rails::Railtie
-    config.before_configuration do
-      config.env_params = ActiveSupport::OrderedOptions.new
-      config.env_params.hello
+    
+
+    initialize 'env_params.load_app' do |app|
+      option.load_app = app.config.env_params.load_app
     end
 
   end

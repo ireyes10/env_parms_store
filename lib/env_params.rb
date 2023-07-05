@@ -1,13 +1,10 @@
 require "env_params/version"
 require "env_params/railtie"
-require "env_params/engine"
+#require "env_params/engine"
 require "env_params/configuration"
 
 module EnvParams
   # Your code goes here...
-
-  mattr_accessor :load_app, default: :mi_app
-
   class Error < StandardError; end
   # Tu código aquí
 
