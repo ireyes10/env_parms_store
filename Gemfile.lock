@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    env_params (0.1.1)
+    env_params (0.1.2)
       rails (>= 4.1.0)
 
 GEM

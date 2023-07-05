@@ -1,7 +1,4 @@
 class Configuration
-  attr_accessor :options
+  attr_reader :config
 
-  def initialize(options)
-    @options = options
-  end
 end
